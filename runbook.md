@@ -48,7 +48,7 @@ This page collects this repositories alerts and begins the process of describing
 + *Severity*: warning
 ##### Alert Name: "KubeContainerWaiting"
 + *Message*: `{{ $labels.namespace }}/{{ $labels.pod }} ({{ $labels.container }}) is in waiting state.`
-+ *Severity*: warning
++ *Severity*: info
 ##### Alert Name: "KubeDaemonSetNotScheduled"
 + *Message*: `A number of pods of daemonset {{$labels.namespace}}/{{$labels.daemonset}} are not scheduled.`
 + *Severity*: warning
